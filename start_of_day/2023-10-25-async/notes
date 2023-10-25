@@ -1,0 +1,14 @@
+2. Can I make a class and use a class inside an async function?
+
+HTTP STUFF:
+
+- Clients send a request with IP Address and Method (Post Get Put or Delete)
+- Server responds with Status code and Payload
+
+Async Stuff:
+
+- Promises: when calling for data over the net in JS, the script won't wait for the data to
+  PROMISE: uses <pending>
+  <pending> will only be a success or failure
+
+Note: Use Postman web browser to check APIs

@@ -1,0 +1,13 @@
+/* Make it pretty */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 1024px;
+  margin: auto;
+}
+
+.gallery img {
+  margin: 0.5em;
+}

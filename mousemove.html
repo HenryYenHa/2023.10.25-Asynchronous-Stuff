@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mover</title>
+  </head>
+  <body>
+    <script>
+      const body = document.querySelector(":root");
+
+      const clickHandler = (event) => {
+        console.log("The event is happening");
+        console.log(`X = ${event.x} and Y = ${event.y}.`);
+      };
+
+      body.addEventListener("mousemove", clickHandler);
+    </script>
+  </body>
+</html>
